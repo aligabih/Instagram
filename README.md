@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Instagram Clone</title>
   <style>
     body {
@@ -13,7 +11,6 @@
       margin: 0;
       padding: 0;
     }
-    
     .container {
       max-width: 800px;
       margin: 0 auto;
@@ -22,39 +19,32 @@
       background-color: #fff;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
-    
     h1 {
       font-size: 32px;
       font-weight: bold;
       margin-bottom: 20px;
     }
-    
     h2 {
       font-size: 24px;
       font-weight: bold;
       margin-bottom: 16px;
     }
-    
     p {
       margin-bottom: 12px;
     }
-    
     ul {
       padding-left: 20px;
       margin-bottom: 12px;
     }
-    
     code {
       font-family: Consolas, monospace;
       background-color: #f5f5f5;
       padding: 2px 4px;
     }
-    
     .link {
       color: #1a73e8;
       text-decoration: none;
     }
-    
     .link:hover {
       text-decoration: underline;
     }
@@ -63,11 +53,9 @@
 <body>
   <div class="container">
     <h1>Instagram Clone</h1>
-    
     <p>
       This project is a clone of Instagram, a popular social media platform. It is built using React and leverages various libraries and dependencies for a seamless user experience.
     </p>
-
     <h2>Libraries Used</h2>
     <ul>
       <li><code>@emotion/react</code>: A library for writing CSS styles with JavaScript.</li>
@@ -81,7 +69,6 @@
       <li><code>react-scripts</code>: A set of scripts and configuration used by Create React App for building and running the application.</li>
       <li><code>web-vitals</code>: A library for measuring and reporting important web performance metrics.</li>
     </ul>
-
     <h2>Getting Started</h2>
     <p>
       To get started with the project, follow the steps below:
@@ -93,7 +80,6 @@
       <li>Start the development server: <code>npm start</code></li>
       <li>Open your browser and navigate to <a class="link" href="http://localhost:3000">http://localhost:3000</a> to view the app.</li>
     </ol>
-
     <h2>Folder Structure</h2>
     <p>
       The project structure is organized as follows:
@@ -113,7 +99,6 @@ instagram-clone/
   ├── package.json
   └── README.md
     </pre>
-
     <h2>Contributing</h2>
     <p>
       If you would like to contribute to this project, you can follow these steps:
@@ -125,7 +110,6 @@ instagram-clone/
       <li>Push the changes to your branch: <code>git push origin feature/my-feature</code>.</li>
       <li>Open a pull request in the original repository.</li>
     </ol>
-
     <h2>License</h2>
     <p>
       This project is licensed under the <a class="link" href="LICENSE">MIT License</a>.
